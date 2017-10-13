@@ -166,4 +166,13 @@ function piste(): void {
     ski.fillStyle="#36AA70";
     ski.fill();
     
+    // Sonne
+    
+    //Sonne
+    
+    ski.beginPath();
+    ski.arc(0, 0, 50, 0, 2 * Math.PI);
+    ski.fillStyle = "#ffff00";
+    ski.fill();
+    
     }
