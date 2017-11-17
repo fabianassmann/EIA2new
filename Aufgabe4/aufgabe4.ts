@@ -213,7 +213,7 @@ namespace Aufgabe4 {
         ski.beginPath();
         ski.fillStyle = _fahrer.color; 
         ski.fillRect(_fahrer.x, _fahrer.y, 5, - 40);
-      ski.stroke();
+        ski.stroke();
         ski.moveTo(_fahrer.x + 20, _fahrer.y - 10);
         ski.lineTo(_fahrer.x - 15, _fahrer.y + 14);
         ski.strokeStyle = "blue";
