@@ -1,5 +1,5 @@
-var StudiVZ;
-(function (StudiVZ) {
+var A7;
+(function (A7) {
     var students = [];
     var stop = false;
     while (!stop) {
@@ -55,5 +55,5 @@ var StudiVZ;
         }
         return "Die eingegebene Matrikelnummer wurde nicht gefunden";
     }
-})(StudiVZ || (StudiVZ = {}));
+})(A7 || (A7 = {}));
 //# sourceMappingURL=Aufgabe7.js.map

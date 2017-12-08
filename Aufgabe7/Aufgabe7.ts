@@ -1,4 +1,4 @@
-namespace StudiVZ {
+namespace A7 {
     interface StudentData {
         matrikelnummer: number;
         name: string;
