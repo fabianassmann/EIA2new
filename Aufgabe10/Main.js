@@ -22,7 +22,7 @@ var A10;
     let label;
     let basketBaumart = ["keine Baumart ausgewählt", "0"];
     let basketHalter = ["keine Halterung ausgewählt", "0"];
-    let basketBeleuchtung = ["Keine Beleuchtung ausgewählt"];
+    let basketBeleuchtung = ["Keine Beleuchtung ausgewählt", "0"];
     let basketSchmuck = [];
     let basketLieferopt = ["keine Lieferoption ausgewählt", "0"];
     function createElements() {

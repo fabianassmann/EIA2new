@@ -24,7 +24,7 @@ namespace A10 {
 
     let basketBaumart: string[]= ["keine Baumart ausgewählt", "0"];
     let basketHalter: string[] = ["keine Halterung ausgewählt", "0"];
-    let basketBeleuchtung: string[] = ["Keine Beleuchtung ausgewählt"];              
+    let basketBeleuchtung: string[] = ["Keine Beleuchtung ausgewählt", "0"];              
     let basketSchmuck: string[][] = [];
     let basketLieferopt: string[] = ["keine Lieferoption ausgewählt", "0"];
 
@@ -301,6 +301,7 @@ namespace A10 {
                 korb.innerHTML += "" + basketSchmuck[i][0] + " " + basketSchmuck[i][1] + "€ <br>";
             }
         }
+        
         
         korb.innerHTML += "<hr> Gesamtpreis: " + Math.round(gesamtpreis * 100) / 100 + "€";
         
