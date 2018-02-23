@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--
+Aufgabe: Semesteraufgabe
+Name: Fabian Assmann
+Matrikel: 256334
+Datum: 22.02.2018
+Hiermit versichere ich, dass ich diesen
+Code selbst geschrieben habe. Er wurde
+nicht kopiert und auch nicht diktiert.
+ -->
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Semesteraufgabe.css">
+<link
+	href="https://fonts.googleapis.com/css?family=BV Fonts|Quicksand"
+	rel="stylesheet">
+
+<title>Catch it!</title>
+
+
+</head>
+
+
+<body>
+
+	<div id="introducing">
+		<h1>
+			<em>Catch it!</em>
+		</h1>
+</br>
+		<p>Anleitung:</p>
+		</br>
+		<p>
+			Fange den GRÜNEN Kreis mit einem Klick auf ihn ein. <br> 
+			</br>
+			Du hast 5 Versuche!
+		</p>
+
+	</div>
+	<p id="gameOver">
+	</br></br>Du hast leider verloren! </br></br> Versuche es gleich noch einmal!
+	</p>
+	<p id="gameWon">
+		</br></br>Du hast gewonnen!!!
+		</p>
+	
+	<canvas id="canvas" width="800" height="600"></canvas>
+
+
+	<script src="main.js"></script>
+	<script src="circles.js"></script>
+	<script src="bluecircles.js"></script>
+	<script src="greencircle.js"></script>
+
+	<button id="startButton" style ="width:100px; height:50px; font-size: 1.5em">Start</button>
+	<button id="resetButton" style ="width:100px; height:50px; font-size: 1.5em">Reset</button>
+	<p id="level" style ="font-size: 1.5"></p>
+	<p id="misses" style ="font-size: 1.5"></p>
+
+</body>
+
+</html>
